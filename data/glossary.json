@@ -1,0 +1,439 @@
+{
+  "$schema": "https://safebridgeinsurance.com/api/glossary-schema.json",
+  "metadata": {
+    "title": "Russian-English Insurance Glossary",
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-29",
+    "maintainer": "SafeBridge Insurance Group",
+    "license": "CC-BY-4.0",
+    "url": "https://github.com/safebridge-insurance/russian-insurance-glossary",
+    "termCount": 50
+  },
+  "categories": ["trucking", "auto", "business", "health", "life", "regulation"],
+  "terms": [
+    {
+      "id": "mc-authority",
+      "category": "trucking",
+      "termEn": "MC Authority",
+      "termRu": "MC Authority (разрешение на коммерческие перевозки)",
+      "definitionEn": "Federal operating authority issued by FMCSA allowing a motor carrier to transport regulated commodities for hire across state lines.",
+      "definitionRu": "Федеральное разрешение на эксплуатацию, выдаваемое FMCSA, позволяющее автотранспортной компании перевозить регулируемые грузы за плату через границы штатов.",
+      "synonyms": ["Motor Carrier Authority", "Operating Authority"],
+      "relatedTerms": ["usdot-number", "boc-3", "ucr", "bmc-91"],
+      "officialFee": "$300",
+      "activationTime": "~3 weeks after BMC-91 filing"
+    },
+    {
+      "id": "usdot-number",
+      "category": "trucking",
+      "termEn": "USDOT Number",
+      "termRu": "USDOT номер",
+      "definitionEn": "Unique identifier assigned by the U.S. Department of Transportation to monitor a company's safety information.",
+      "definitionRu": "Уникальный идентификатор, присваиваемый Министерством транспорта США для отслеживания информации о безопасности компании.",
+      "synonyms": ["DOT Number"],
+      "relatedTerms": ["mc-authority", "fmcsa"]
+    },
+    {
+      "id": "bmc-91",
+      "category": "trucking",
+      "termEn": "BMC-91",
+      "termRu": "BMC-91 (форма страхования)",
+      "definitionEn": "Form filed by an insurance company with FMCSA proving a motor carrier has the minimum required liability insurance ($750K-$5M depending on cargo).",
+      "definitionRu": "Форма, подаваемая страховой компанией в FMCSA, подтверждающая что автоперевозчик имеет минимально требуемое страхование ответственности ($750K-$5M в зависимости от груза)."
+    },
+    {
+      "id": "boc-3",
+      "category": "trucking",
+      "termEn": "BOC-3",
+      "termRu": "BOC-3 (process agent designation)",
+      "definitionEn": "Form filed designating process agents in each state where a motor carrier operates, allowing legal documents to be served.",
+      "definitionRu": "Форма, назначающая процессуальных агентов в каждом штате, где работает автоперевозчик, позволяющая получать юридические документы.",
+      "officialFee": "$35"
+    },
+    {
+      "id": "ucr",
+      "category": "trucking",
+      "termEn": "UCR (Unified Carrier Registration)",
+      "termRu": "UCR (Единая регистрация перевозчика)",
+      "definitionEn": "Annual federal registration program for interstate motor carriers based on fleet size.",
+      "definitionRu": "Годовая федеральная программа регистрации для межштатных автоперевозчиков, основанная на размере автопарка.",
+      "officialFee": "$60 (1-2 trucks), $179 (3-5 trucks)"
+    },
+    {
+      "id": "bobtail-insurance",
+      "category": "trucking",
+      "termEn": "Bobtail Insurance",
+      "termRu": "Bobtail (страховка трака без прицепа)",
+      "definitionEn": "Coverage for a truck operating without a trailer attached, typically between dispatched loads.",
+      "definitionRu": "Страхование трака, движущегося без прицепа, обычно между отправленными грузами.",
+      "synonyms": ["Deadhead Insurance"],
+      "averageCost": "$300-$800/year"
+    },
+    {
+      "id": "non-trucking-liability",
+      "category": "trucking",
+      "termEn": "Non-Trucking Liability (NTL)",
+      "termRu": "Non-Trucking Liability (NTL)",
+      "definitionEn": "Coverage for personal use of a commercial truck (running errands, driving to mechanic, family use).",
+      "definitionRu": "Покрытие для личного использования коммерческого трака (поездки по делам, к механику, семейное использование).",
+      "averageCost": "$300-$700/year"
+    },
+    {
+      "id": "primary-liability",
+      "category": "trucking",
+      "termEn": "Primary Liability Insurance",
+      "termRu": "Primary Liability (основная страховка ответственности)",
+      "definitionEn": "Mandatory coverage for bodily injury and property damage you cause to others. FMCSA minimum: $750K general freight, $1M hazmat, $5M certain oil/gas.",
+      "definitionRu": "Обязательное покрытие телесных повреждений и материального ущерба, причинённого другим. Минимум FMCSA: $750K обычный груз, $1M HAZMAT, $5M некоторые нефтепродукты.",
+      "averageCost": "$5,000-$8,000/year ($1M CSL)"
+    },
+    {
+      "id": "cargo-insurance",
+      "category": "trucking",
+      "termEn": "Cargo Insurance",
+      "termRu": "Cargo Insurance (страховка груза)",
+      "definitionEn": "Coverage for the goods being transported. Most freight brokers require $100,000 minimum.",
+      "definitionRu": "Покрытие перевозимого груза. Большинство грузовых брокеров требуют минимум $100,000.",
+      "averageCost": "$400-$1,800/year"
+    },
+    {
+      "id": "physical-damage",
+      "category": "trucking",
+      "termEn": "Physical Damage Insurance",
+      "termRu": "Physical Damage (страховка физического ущерба траку)",
+      "definitionEn": "Coverage for collision and comprehensive damage to your own truck.",
+      "definitionRu": "Покрытие столкновений и комплексного ущерба вашему собственному траку.",
+      "averageCost": "$1,000-$3,000/year"
+    },
+    {
+      "id": "csa-score",
+      "category": "trucking",
+      "termEn": "CSA Score",
+      "termRu": "CSA скор (Compliance, Safety, Accountability)",
+      "definitionEn": "FMCSA safety scoring system measuring motor carriers across 7 BASICs (Behavior Analysis and Safety Improvement Categories).",
+      "definitionRu": "Система оценки безопасности FMCSA, измеряющая автоперевозчиков по 7 BASIC (Категории анализа поведения и улучшения безопасности)."
+    },
+    {
+      "id": "eld",
+      "category": "trucking",
+      "termEn": "ELD (Electronic Logging Device)",
+      "termRu": "ELD (Электронный журнал)",
+      "definitionEn": "Federally mandated device that automatically records driver hours of service (HOS).",
+      "definitionRu": "Федерально обязательное устройство, автоматически записывающее часы работы водителя (HOS)."
+    },
+    {
+      "id": "ifta",
+      "category": "trucking",
+      "termEn": "IFTA (International Fuel Tax Agreement)",
+      "termRu": "IFTA (Международное соглашение о топливном налоге)",
+      "definitionEn": "Multi-state agreement simplifying fuel tax reporting for interstate motor carriers.",
+      "definitionRu": "Многоштатное соглашение, упрощающее отчётность по топливному налогу для межштатных перевозчиков."
+    },
+    {
+      "id": "sr-22",
+      "category": "auto",
+      "termEn": "SR-22",
+      "termRu": "SR-22 (сертификат финансовой ответственности)",
+      "definitionEn": "Certificate filed by your insurance company with the state DMV proving minimum required auto insurance, typically required after DUI/DWI or license suspension.",
+      "definitionRu": "Сертификат, подаваемый вашей страховой компанией в DMV штата, подтверждающий минимально требуемое автострахование, обычно требуется после DUI/DWI или лишения прав.",
+      "averageCost": "$15-$50 filing fee + 80-260% premium increase",
+      "duration": "3 years (5 in some states)"
+    },
+    {
+      "id": "fr-44",
+      "category": "auto",
+      "termEn": "FR-44",
+      "termRu": "FR-44 (Флорида, Вирджиния)",
+      "definitionEn": "Stricter form of SR-22 used in Florida and Virginia, requiring double the standard liability minimums.",
+      "definitionRu": "Более строгая форма SR-22, используемая во Флориде и Вирджинии, требующая удвоенных минимумов ответственности."
+    },
+    {
+      "id": "deductible",
+      "category": "auto",
+      "termEn": "Deductible",
+      "termRu": "Deductible (франшиза)",
+      "definitionEn": "Amount you pay out-of-pocket before insurance pays the rest of a claim.",
+      "definitionRu": "Сумма, которую вы платите из своего кармана до того, как страховка покроет остальную часть claim."
+    },
+    {
+      "id": "uninsured-motorist",
+      "category": "auto",
+      "termEn": "Uninsured Motorist Coverage (UM)",
+      "termRu": "Uninsured Motorist (страхование от незастрахованных водителей)",
+      "definitionEn": "Coverage that pays for your injuries and damages when hit by a driver without insurance.",
+      "definitionRu": "Покрытие, которое оплачивает ваши травмы и ущерб при столкновении с незастрахованным водителем."
+    },
+    {
+      "id": "comprehensive",
+      "category": "auto",
+      "termEn": "Comprehensive Coverage",
+      "termRu": "Comprehensive (комплексное покрытие)",
+      "definitionEn": "Coverage for non-collision damage: theft, vandalism, weather, fire, animal strikes.",
+      "definitionRu": "Покрытие неаварийных повреждений: кража, вандализм, погода, пожар, столкновение с животными."
+    },
+    {
+      "id": "collision",
+      "category": "auto",
+      "termEn": "Collision Coverage",
+      "termRu": "Collision (покрытие столкновений)",
+      "definitionEn": "Coverage for damage to your vehicle from collision with another vehicle or object.",
+      "definitionRu": "Покрытие ущерба вашему транспортному средству от столкновения с другим транспортным средством или объектом."
+    },
+    {
+      "id": "general-liability",
+      "category": "business",
+      "termEn": "General Liability (GL)",
+      "termRu": "General Liability (общая ответственность бизнеса)",
+      "definitionEn": "Coverage for bodily injury, property damage, and personal injury claims against your business by third parties.",
+      "definitionRu": "Покрытие телесных повреждений, материального ущерба и личных исков против вашего бизнеса от третьих лиц.",
+      "averageCost": "$580-$3,000/year"
+    },
+    {
+      "id": "workers-compensation",
+      "category": "business",
+      "termEn": "Workers Compensation",
+      "termRu": "Workers Compensation (страхование работников)",
+      "definitionEn": "Mandatory insurance covering medical expenses and lost wages for employees injured on the job.",
+      "definitionRu": "Обязательное страхование, покрывающее медицинские расходы и потерю заработка работников, получивших травму на работе.",
+      "rate": "$0.15-$15 per $100 of payroll"
+    },
+    {
+      "id": "professional-liability",
+      "category": "business",
+      "termEn": "Professional Liability (E&O)",
+      "termRu": "Professional Liability / Errors & Omissions (E&O)",
+      "definitionEn": "Coverage for claims of professional negligence, errors, or omissions by service providers (lawyers, accountants, realtors, consultants).",
+      "definitionRu": "Покрытие исков о профессиональной халатности, ошибках или упущениях поставщиков услуг (юристы, бухгалтеры, риелторы, консультанты).",
+      "averageCost": "$800-$3,000/year"
+    },
+    {
+      "id": "bop",
+      "category": "business",
+      "termEn": "BOP (Business Owners Policy)",
+      "termRu": "BOP (Полис владельца бизнеса)",
+      "definitionEn": "Bundled policy combining general liability and commercial property insurance for small businesses.",
+      "definitionRu": "Комбинированный полис, объединяющий общую ответственность и коммерческое имущественное страхование для малого бизнеса.",
+      "averageCost": "~$2,259/year average"
+    },
+    {
+      "id": "cyber-liability",
+      "category": "business",
+      "termEn": "Cyber Liability Insurance",
+      "termRu": "Cyber Liability (страхование от кибер-рисков)",
+      "definitionEn": "Coverage for data breaches, ransomware, business interruption from cyber attacks, and HIPAA violations.",
+      "definitionRu": "Покрытие утечек данных, ransomware, прерывания бизнеса от кибер-атак и нарушений HIPAA.",
+      "averageCost": "$1,500-$5,000/year (small business)"
+    },
+    {
+      "id": "liquor-liability",
+      "category": "business",
+      "termEn": "Liquor Liability",
+      "termRu": "Liquor Liability (ответственность за продажу алкоголя)",
+      "definitionEn": "Coverage for businesses serving alcohol against claims from intoxicated patrons (DRAM shop liability).",
+      "definitionRu": "Покрытие для бизнесов, продающих алкоголь, против исков от опьяневших клиентов (ответственность DRAM shop)."
+    },
+    {
+      "id": "term-life",
+      "category": "life",
+      "termEn": "Term Life Insurance",
+      "termRu": "Term Life (срочное страхование жизни)",
+      "definitionEn": "Life insurance providing coverage for a specific period (typically 10, 20, or 30 years) at lower premiums than whole life.",
+      "definitionRu": "Страхование жизни, обеспечивающее покрытие на определённый период (обычно 10, 20 или 30 лет) с более низкими премиями, чем whole life.",
+      "averageCost": "$240-$1,200/year for $500K coverage (40-year-old male)"
+    },
+    {
+      "id": "whole-life",
+      "category": "life",
+      "termEn": "Whole Life Insurance",
+      "termRu": "Whole Life (полное страхование жизни)",
+      "definitionEn": "Permanent life insurance with cash value accumulation. Premiums are higher but coverage lasts entire life.",
+      "definitionRu": "Постоянное страхование жизни с накоплением денежной стоимости. Премии выше, но покрытие длится всю жизнь.",
+      "averageCost": "$5,800-$5,900/year for $500K coverage"
+    },
+    {
+      "id": "final-expense",
+      "category": "life",
+      "termEn": "Final Expense / Burial Insurance",
+      "termRu": "Final Expense (страхование на похороны)",
+      "definitionEn": "Small whole life policy ($5K-$25K) designed to cover funeral and burial costs. Often guaranteed-issue (no medical exam) for ages 50-85.",
+      "definitionRu": "Небольшой полис whole life ($5K-$25K), разработанный для покрытия расходов на похороны. Часто guaranteed-issue (без медосмотра) для возраста 50-85.",
+      "averageCost": "$50-$150/month"
+    },
+    {
+      "id": "guaranteed-issue",
+      "category": "life",
+      "termEn": "Guaranteed Issue",
+      "termRu": "Guaranteed Issue (гарантированное оформление)",
+      "definitionEn": "Life insurance accepting all applicants regardless of health status, no medical exam required.",
+      "definitionRu": "Страхование жизни, принимающее всех заявителей независимо от состояния здоровья, без медосмотра."
+    },
+    {
+      "id": "aca",
+      "category": "health",
+      "termEn": "ACA (Affordable Care Act / Obamacare)",
+      "termRu": "ACA (Affordable Care Act / Obamacare)",
+      "definitionEn": "U.S. healthcare reform law expanding access to health insurance via marketplaces with income-based subsidies.",
+      "definitionRu": "Закон США о реформе здравоохранения, расширяющий доступ к медицинскому страхованию через marketplace с субсидиями на основе дохода."
+    },
+    {
+      "id": "hipaa",
+      "category": "regulation",
+      "termEn": "HIPAA",
+      "termRu": "HIPAA (Закон о переносимости и подотчётности медицинского страхования)",
+      "definitionEn": "Federal law protecting privacy and security of personal health information.",
+      "definitionRu": "Федеральный закон, защищающий конфиденциальность и безопасность личной медицинской информации."
+    },
+    {
+      "id": "fmcsa",
+      "category": "regulation",
+      "termEn": "FMCSA (Federal Motor Carrier Safety Administration)",
+      "termRu": "FMCSA (Федеральная администрация безопасности автомобильных перевозок)",
+      "definitionEn": "U.S. agency regulating commercial motor vehicles, drivers, and motor carriers.",
+      "definitionRu": "Агентство США, регулирующее коммерческие автомобили, водителей и автоперевозчиков."
+    },
+    {
+      "id": "naic",
+      "category": "regulation",
+      "termEn": "NAIC (National Association of Insurance Commissioners)",
+      "termRu": "NAIC (Национальная ассоциация уполномоченных по страхованию)",
+      "definitionEn": "U.S. standards-setting and regulatory support organization governed by chief insurance regulators of all 50 states.",
+      "definitionRu": "Американская организация по установлению стандартов и регулированию, управляемая главными страховыми регуляторами всех 50 штатов."
+    },
+    {
+      "id": "tcpa",
+      "category": "regulation",
+      "termEn": "TCPA (Telephone Consumer Protection Act)",
+      "termRu": "TCPA (Закон о защите потребителей телефонной связи)",
+      "definitionEn": "U.S. federal law restricting telemarketing calls, automated calls, and text messages without prior consent.",
+      "definitionRu": "Федеральный закон США, ограничивающий маркетинговые звонки, автоматические звонки и текстовые сообщения без предварительного согласия."
+    },
+    {
+      "id": "coi",
+      "category": "regulation",
+      "termEn": "COI (Certificate of Insurance)",
+      "termRu": "COI (Сертификат о страховании)",
+      "definitionEn": "Document issued by an insurance company verifying that an entity has insurance coverage. Required by general contractors, landlords, freight brokers.",
+      "definitionRu": "Документ, выданный страховой компанией, подтверждающий, что у организации есть страховое покрытие. Требуется генеральными подрядчиками, арендодателями, грузовыми брокерами."
+    },
+    {
+      "id": "ein",
+      "category": "regulation",
+      "termEn": "EIN (Employer Identification Number)",
+      "termRu": "EIN (Идентификационный номер работодателя)",
+      "definitionEn": "Federal tax ID issued by IRS to business entities operating in the United States.",
+      "definitionRu": "Федеральный налоговый ID, выдаваемый IRS бизнес-организациям, работающим в США."
+    },
+    {
+      "id": "llc",
+      "category": "regulation",
+      "termEn": "LLC (Limited Liability Company)",
+      "termRu": "LLC (Общество с ограниченной ответственностью)",
+      "definitionEn": "U.S. business structure combining corporate liability protection with partnership-style taxation flexibility.",
+      "definitionRu": "Американская бизнес-структура, объединяющая корпоративную защиту от ответственности с гибкостью налогообложения партнёрства."
+    },
+    {
+      "id": "premium",
+      "category": "general",
+      "termEn": "Premium",
+      "termRu": "Premium (страховая премия / взнос)",
+      "definitionEn": "The amount you pay an insurance company for coverage, typically monthly or annually.",
+      "definitionRu": "Сумма, которую вы платите страховой компании за покрытие, обычно ежемесячно или ежегодно."
+    },
+    {
+      "id": "claim",
+      "category": "general",
+      "termEn": "Claim",
+      "termRu": "Claim (страховой случай / иск о возмещении)",
+      "definitionEn": "Formal request to an insurance company for coverage or compensation for a covered loss.",
+      "definitionRu": "Формальный запрос в страховую компанию о покрытии или компенсации за покрытый убыток."
+    },
+    {
+      "id": "exclusion",
+      "category": "general",
+      "termEn": "Exclusion",
+      "termRu": "Exclusion (исключение из покрытия)",
+      "definitionEn": "Specific situation, condition, or circumstance not covered by an insurance policy.",
+      "definitionRu": "Конкретная ситуация, условие или обстоятельство, не покрываемые страховым полисом."
+    },
+    {
+      "id": "underwriting",
+      "category": "general",
+      "termEn": "Underwriting",
+      "termRu": "Underwriting (андеррайтинг)",
+      "definitionEn": "Insurance company process of evaluating risk and deciding whether to issue a policy and at what price.",
+      "definitionRu": "Процесс страховой компании по оценке риска и принятию решения о выпуске полиса и его цене."
+    },
+    {
+      "id": "broker-vs-agent",
+      "category": "general",
+      "termEn": "Broker vs Agent",
+      "termRu": "Broker vs Agent (брокер vs агент)",
+      "definitionEn": "Brokers represent the customer and shop multiple carriers; agents represent specific carriers (captive) or multiple (independent).",
+      "definitionRu": "Брокеры представляют клиента и сравнивают несколько компаний; агенты представляют конкретные компании (captive) или несколько (independent)."
+    },
+    {
+      "id": "umbrella-policy",
+      "category": "general",
+      "termEn": "Umbrella Policy",
+      "termRu": "Umbrella Policy (зонтичный полис)",
+      "definitionEn": "Additional liability coverage above the limits of underlying policies (auto, home, business).",
+      "definitionRu": "Дополнительное покрытие ответственности сверх лимитов основных полисов (авто, дом, бизнес)."
+    },
+    {
+      "id": "actuarial",
+      "category": "general",
+      "termEn": "Actuarial",
+      "termRu": "Actuarial (актуарный)",
+      "definitionEn": "Mathematical and statistical analysis used to assess insurance risk and price policies.",
+      "definitionRu": "Математический и статистический анализ, используемый для оценки страхового риска и установления цены полисов."
+    },
+    {
+      "id": "subrogation",
+      "category": "general",
+      "termEn": "Subrogation",
+      "termRu": "Subrogation (суброгация)",
+      "definitionEn": "Insurance company's right to pursue a third party that caused a loss, after paying the policyholder.",
+      "definitionRu": "Право страховой компании преследовать третью сторону, причинившую убыток, после выплаты страхователю."
+    },
+    {
+      "id": "endorsement",
+      "category": "general",
+      "termEn": "Endorsement / Rider",
+      "termRu": "Endorsement / Rider (дополнение к полису)",
+      "definitionEn": "Amendment to an insurance policy adding, removing, or modifying coverage.",
+      "definitionRu": "Поправка к страховому полису, добавляющая, удаляющая или изменяющая покрытие."
+    },
+    {
+      "id": "loss-ratio",
+      "category": "general",
+      "termEn": "Loss Ratio",
+      "termRu": "Loss Ratio (коэффициент убытков)",
+      "definitionEn": "Ratio of claims paid to premiums earned, used to measure insurer profitability.",
+      "definitionRu": "Соотношение выплаченных claims к заработанным премиям, используемое для измерения прибыльности страховщика."
+    },
+    {
+      "id": "binder",
+      "category": "general",
+      "termEn": "Binder",
+      "termRu": "Binder (временное подтверждение страхования)",
+      "definitionEn": "Temporary insurance contract providing coverage until a formal policy is issued.",
+      "definitionRu": "Временный страховой контракт, обеспечивающий покрытие до выпуска формального полиса."
+    },
+    {
+      "id": "renewal",
+      "category": "general",
+      "termEn": "Renewal",
+      "termRu": "Renewal (продление полиса)",
+      "definitionEn": "Continuation of an insurance policy beyond its original term.",
+      "definitionRu": "Продолжение страхового полиса за пределами его первоначального срока."
+    },
+    {
+      "id": "lapse",
+      "category": "general",
+      "termEn": "Lapse",
+      "termRu": "Lapse (прекращение действия полиса)",
+      "definitionEn": "Termination of an insurance policy due to non-payment of premium.",
+      "definitionRu": "Прекращение страхового полиса из-за неуплаты премии."
+    }
+  ]
+}
