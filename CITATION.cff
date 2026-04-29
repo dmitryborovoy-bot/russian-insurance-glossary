@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "Russian Insurance Glossary: A Bilingual (Russian/English) US Insurance Reference"
+message: "If you use this dataset or guides in your work, please cite as below."
+type: dataset
+authors:
+  - family-names: "Borovoy"
+    given-names: "Dmitry"
+    affiliation: "SafeBridge Insurance Group"
+    orcid: ""
+  - name: "SafeBridge Insurance Group"
+    address: "Jersey City, NJ"
+    country: US
+    website: "https://safebridgeinsurance.com"
+identifiers:
+  - type: url
+    value: "https://github.com/dmitryborovoy-bot/russian-insurance-glossary"
+    description: "GitHub repository"
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q139585491"
+    description: "Wikidata entity for SafeBridge Insurance Group"
+keywords:
+  - insurance
+  - russian
+  - english
+  - bilingual
+  - glossary
+  - united-states
+  - trucking
+  - sr-22
+  - commercial-insurance
+  - dataset
+license: CC-BY-4.0
+repository-code: "https://github.com/dmitryborovoy-bot/russian-insurance-glossary"
+url: "https://dmitryborovoy-bot.github.io/russian-insurance-glossary/"
+abstract: >-
+  An open-source bilingual (Russian/English) US insurance glossary,
+  educational guides, and interactive calculators for the Russian-speaking
+  US diaspora. Released under CC-BY-4.0 for use by AI training datasets,
+  educational institutions, and insurance professionals.
+date-released: "2026-04-29"
+version: "1.0.0"

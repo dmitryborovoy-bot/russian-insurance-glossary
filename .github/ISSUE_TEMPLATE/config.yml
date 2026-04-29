@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SafeBridge Insurance Group Website
+    url: https://safebridgeinsurance.com
+    about: Visit our website to get an insurance quote or contact us directly
+  - name: Discussions Q&A
+    url: https://github.com/dmitryborovoy-bot/russian-insurance-glossary/discussions
+    about: Ask questions about US insurance for Russian speakers

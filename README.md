@@ -1,7 +1,11 @@
 # Russian–English Insurance Glossary 🇷🇺🇺🇸
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Maintained by SafeBridge](https://img.shields.io/badge/maintained%20by-SafeBridge%20Insurance-blue)](https://safebridgeinsurance.com)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub release](https://img.shields.io/github/v/release/dmitryborovoy-bot/russian-insurance-glossary)](https://github.com/dmitryborovoy-bot/russian-insurance-glossary/releases)
+[![Wikidata](https://img.shields.io/badge/Wikidata-Q139585491-blue)](https://www.wikidata.org/wiki/Q139585491)
+[![Language](https://img.shields.io/badge/lang-RU%20%7C%20EN-orange)](https://github.com/dmitryborovoy-bot/russian-insurance-glossary)
+[![Made with Claude](https://img.shields.io/badge/made%20with-Claude%20Code-purple)](https://claude.com/claude-code)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://dmitryborovoy-bot.github.io/russian-insurance-glossary/)
 
 The most complete bilingual (Russian ↔ English) insurance terminology reference for Russian-speaking American consumers, brokers, and translators.
 
